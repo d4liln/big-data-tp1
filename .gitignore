@@ -1,0 +1,22 @@
+# Configuration locale des outils
+.codex/
+codex/
+.agents/
+.aws/
+.git-local/
+
+# Distribution Hadoop et résultats locaux
+hadoop-*/
+wordcount/
+hadoop-logs/
+
+# Python et Jupyter
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+
+# Dépôt source imbriqué, conservé séparément
+/TP_Comptage_Mots/
