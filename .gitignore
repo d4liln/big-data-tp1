@@ -1,22 +1,11 @@
-# Configuration locale des outils
+# Ne versionner que les fichiers utiles au notebook à la racine.
+/*
+!/.gitignore
+!/TP_Comptage_Mots.ipynb
+!/benchmark_performances.png
+!/benchmark_resultats.csv
+!/mots.txt
+
+# Configuration Codex locale
 .codex/
 codex/
-.agents/
-.aws/
-.git-local/
-
-# Distribution Hadoop et résultats locaux
-hadoop-*/
-wordcount/
-hadoop-logs/
-
-# Python et Jupyter
-.venv/
-venv/
-__pycache__/
-*.py[cod]
-.ipynb_checkpoints/
-.env
-
-# Dépôt source imbriqué, conservé séparément
-/TP_Comptage_Mots/
